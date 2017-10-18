@@ -9,7 +9,15 @@ public class EvenOdd {
 		
 		//todo: The program takes a number as input.
 		//It then goes through all integer values till reaching that value and prints all the odd ones.
+	
+		int x= scan.nextInt();
 		
+		for(int count=0; count<=x ; count++){
+			
+			if (count%2==1){
+			System.out.println(count);
+			}
+		}
 	}
 	
 }
